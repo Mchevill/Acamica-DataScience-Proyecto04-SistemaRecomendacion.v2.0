@@ -1,5 +1,5 @@
 # [Acamica](acamica.com) Proyecto 4
-Continuacion del [Proyecto 3] (https://github.com/Mchevill/Acamica-DataScience-Proyecto03-SistemaRecomendacion) propuesto en el curso de Data Science en Acamica. Dessarrollo y optimizacion de un sistema de recomedacion de juegos para usuarios de la plataforma Steam.
+Continuacion del [Proyecto 3](https://github.com/Mchevill/Acamica-DataScience-Proyecto03-SistemaRecomendacion) propuesto en el curso de Data Science en Acamica. Dessarrollo y optimizacion de un sistema de recomedacion de juegos para usuarios de la plataforma Steam.
 
 El objetivo de este proyecto es desarrollar nuevos modelos para comparar resultados con los obtenidos en el Proyecto 3 y mejorar el tiempo de la optimizacion de hiperparametros utilizando el metodo bayesiano desarrollado en este [articulo](https://machinelearningmastery.com/what-is-bayesian-optimization/). la base de datos provista por Steam se puede descargar [aquí](https://github.com/kang205/SASRec). Este proyecto se desarrolló en el leguaje Python y se utilizan las librerías Numpy, Pandas, Matplotlib, Seaborn, Sklearn, scikit-optimize e Implicit.
 
