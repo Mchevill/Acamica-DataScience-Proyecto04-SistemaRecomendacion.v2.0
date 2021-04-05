@@ -1,7 +1,7 @@
 # [Acamica](acamica.com) Proyecto 4
-Continuacion del [Proyecto 3](https://github.com/Mchevill/Acamica-DataScience-Proyecto03-SistemaRecomendacion) propuesto en el curso de Data Science en Acamica. Dessarrollo y optimizacion de un sistema de recomedacion de juegos para usuarios de la plataforma Steam.
+Continuación del [Proyecto 3](https://github.com/Mchevill/Acamica-DataScience-Proyecto03-SistemaRecomendacion) propuesto en el curso de Data Science en Acamica. Desarrollo y optimización de un sistema de recomendación de juegos para usuarios de la plataforma Steam.
 
-El objetivo de este proyecto es desarrollar nuevos modelos para comparar resultados con los obtenidos en el Proyecto 3 y mejorar el tiempo de la optimizacion de hiperparametros utilizando el metodo bayesiano desarrollado en este [articulo](https://machinelearningmastery.com/what-is-bayesian-optimization/). la base de datos provista por Steam se puede descargar [aquí](https://github.com/kang205/SASRec). Este proyecto se desarrolló en el leguaje Python y se utilizan las librerías Numpy, Pandas, Matplotlib, Seaborn, Sklearn, scikit-optimize e Implicit.
+El objetivo de este proyecto es desarrollar nuevos modelos para comparar resultados con los obtenidos en el Proyecto 3 y mejorar el tiempo de la optimización de hiperparametros utilizando el método bayesiano desarrollado en este [articulo](https://machinelearningmastery.com/what-is-bayesian-optimization/). la base de datos provista por Steam se puede descargar [aquí](https://github.com/kang205/SASRec). Este proyecto se desarrolló en el leguaje Python y se utilizan las librerías Numpy, Pandas, Matplotlib, Seaborn, Sklearn, scikit-optimize e Implicit.
 
 Este proyecto se divide en 5 partes:
 1. Análisis exploratorio del Dataset.
@@ -10,4 +10,5 @@ Este proyecto se divide en 5 partes:
 4. Análisis sobre un usuario aleatorio.
 5. Conclusiones.
 
-Los moelos utilizados en este proyecto son **mínimos cuadrados alternantes (ALS)** basado en el [articulo](http://yifanhu.net/PUB/cf.pdf) al igual que en el Proyecto 3 y **K vecinos más cercanos (KNN) utilizando la medida de similitud coseno y similitud BM25**. La métrica, para comparar los modelos, utilizada es **Precisión Media Promedio (MAP)**.
+Los modelos utilizados en este proyecto son **mínimos cuadrados alternantes (ALS)** basado en el [articulo](http://yifanhu.net/PUB/cf.pdf) al igual que en el Proyecto 3 y **K vecinos más cercanos (KNN) utilizando la medida de similitud coseno y similitud BM25**. La métrica, para comparar los modelos, utilizada es **Precisión Media Promedio (MAP)**.
+
